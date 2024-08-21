@@ -1,0 +1,15 @@
+Immutable class pattern is one of the concurrency control pattern in java which is
+used to maintain the state of the object of the class immutable. This allows the
+thread safety of the object.
+
+How to create an immutable class?
+
+make class final
+
+make all the fields of the class private and final
+
+no setter method
+
+constructor initialization -> fields can be accessed only through the constructors
+
+return deep copies
